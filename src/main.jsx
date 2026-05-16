@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
@@ -41,8 +41,15 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FriendProvider>
-    <RouterProvider router={router}/>
-    </FriendProvider>
+    <Suspense fallback={
+      <div className="min-h-screen flex flex-col items-center justify-center bg-[#f8fafc]">
+        <div className="w-12 h-12 border-4 border-[#1a3b2e] border-t-transparent rounded-full animate-spin mb-4"></div>
+        <p className="text-gray-500 font-medium">Loading app...</p>
+      </div>
+    }>
+      <FriendProvider>
+        <RouterProvider router={router} />
+      </FriendProvider>
+    </Suspense>
   </StrictMode>,
-)
+);
