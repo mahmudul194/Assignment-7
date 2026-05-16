@@ -1,16 +1,27 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**KeenKeeper** is a personal friendship management dashboard designed to help you nurture your most important relationships. It tracks your interactions, sets connection goals, and provides analytics to ensure nobody falls through the cracks.
 
-Currently, two official plugins are available:
+## 🚀 Key Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Personalized Friend Dashboard**: View all your connections at a glance with status indicators (On-track, Almost Due, Overdue) based on your last contact.
+- **Smart Timeline**: Automatically log calls, texts, and video chats with a persistent interaction history and filtering system.
+- **Friendship Analytics**: Visualize your social habits with detailed charts showing your preferred interaction methods over time.
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **React.js**: Core UI framework for a responsive and dynamic experience.
+- **Tailwind CSS 4.0**: State-of-the-art styling with a custom forest green design system.
+- **React Router 7**: Seamless navigation between Home, Details, Timeline, and Stats pages.
+- **Recharts**: Beautiful, interactive data visualization for friendship analytics.
+- **Lucide React**: Clean and consistent iconography.
+- **React Hot Toast**: Instant feedback with elegant toast notifications.
 
-## Expanding the ESLint configuration
+## 📦 Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run dev`
+4. Open `http://localhost:5173` in your browser
+
+---
