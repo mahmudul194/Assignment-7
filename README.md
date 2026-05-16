@@ -17,11 +17,5 @@
 - **Lucide React**: Clean and consistent iconography.
 - **React Hot Toast**: Instant feedback with elegant toast notifications.
 
-## 📦 Getting Started
-
-1. Clone the repository
-2. Install dependencies: `npm install`
-3. Run the development server: `npm run dev`
-4. Open `http://localhost:5173` in your browser
 
 ---
