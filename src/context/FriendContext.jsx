@@ -3,7 +3,7 @@ import toast from 'react-hot-toast';
 
 const FriendContext = createContext();
 
-// eslint-disable-next-line react-refresh/only-export-components
+
 export const useFriends = () => useContext(FriendContext);
 
 export const FriendProvider = ({ children }) => {
